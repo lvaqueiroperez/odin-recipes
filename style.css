@@ -2,21 +2,14 @@ body {
     background-color: oldlace;
 }
 
-.homepage-title {
-    font-size: 50px;
-    text-align: center;
-    color: #c4834e;
-    font-family: "Monaco", "Lucida Console", monospace;
-}
-
 .homepage-menu {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
     color: brown;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.recipe-title {
+.title {
     font-size: 50px;
     text-align: center;
     color: #c4834e;
@@ -45,4 +38,5 @@ p {
 .homepage-link {
     color: brown;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
