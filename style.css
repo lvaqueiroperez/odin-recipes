@@ -12,6 +12,26 @@ body {
         background-color: oldlace;
 }
 
+.title,
+.homepage-title {
+    font-size: 50px;
+    text-align: center;
+    color: #c4834e;
+    font-family: "Monaco", "Lucida Console", monospace;
+}
+
+.homepage-title {
+    width: 400px;
+    margin: 30px auto;
+    border: 10px dotted green;
+    padding: 10px;
+    height: auto;
+}
+
+.odin-purple {
+    color: #854085;
+}
+
 .homepage-menu {
     font-size: 28px;
     font-weight: bold;
@@ -34,24 +54,8 @@ body {
     margin-bottom: 15px;
 }
 
-
-.homepage-title {
-    font-size: 50px;
-    text-align: center;
-    color: #c4834e;
-    font-family: "Monaco", "Lucida Console", monospace;
-    width: 400px;
-    margin: 30px auto;
-    border: 10px dotted green;
-    padding: 10px;
-    height: auto;
-}
-
-.title {
-    font-size: 50px;
-    text-align: center;
-    color: #c4834e;
-    font-family: "Monaco", "Lucida Console", monospace;
+.homepage-menu a {
+    color: #974e14;
 }
 
 .recipe-img {
