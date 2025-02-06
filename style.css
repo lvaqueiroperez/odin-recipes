@@ -17,6 +17,34 @@ body {
     font-weight: bold;
     color: brown;
     font-family: 'Courier New', Courier, monospace;
+    margin: 50px auto;
+    width: 350px;
+    text-align: center;
+    list-style-type: none;
+    /*
+    Las listas a las que ocultamos los puntos o elementos que tengan en "list-style-type" pondrán por defecto un
+    "padding-left: 40px" donde debería estar los puntos o elementos de numeración de la lista.
+    Si quitamos ese padding, podremos hacer una lista que tenga los elementos centrados y sin un padding que 
+    obstaculice de manera visual.
+    */
+    padding-left: 0px;
+}
+
+.homepage-menu li {
+    margin-bottom: 15px;
+}
+
+
+.homepage-title {
+    font-size: 50px;
+    text-align: center;
+    color: #c4834e;
+    font-family: "Monaco", "Lucida Console", monospace;
+    width: 400px;
+    margin: 30px auto;
+    border: 10px dotted green;
+    padding: 10px;
+    height: auto;
 }
 
 .title {
